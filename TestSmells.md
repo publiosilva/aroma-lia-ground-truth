@@ -78,7 +78,7 @@ Um método de teste que contém **mais de uma declaração de asserção com os 
 
 ```java
 @Test
-public void test() {
+public void testDuplicateAssert() {
     // ...
     assertEquals(param1, 1); // Duplicado
     assertEquals(param2, 2);
